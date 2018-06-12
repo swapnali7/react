@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.navbar-default {
+    background-color: #fe3f3f!important;
+    border-color: #c0392b!important;
+    background-image: none!important;
+}
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand {
+    color: #fff!important;
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus{
+  background-color: #fe3f3f!important;
+  background-image: none!important;
+}
+.navbar-header .navbar-brand i strong{
+  margin-left: 3px;
+}
+.carousel.carousel-slider{
+  margin-bottom: 20px;
+}
+.carousel .thumbs-wrapper{
+  display: none;
+}
+.slider-wrapper p.legend{
+  display: none;
+}
+.productGrid{
+  margin-top: 20px;
+}
+.productGrid .thumbnail{
+  padding-top: 10px;
+}
+.Footer{
+  background-color: #fe3f3f;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
